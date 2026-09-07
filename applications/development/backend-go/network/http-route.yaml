@@ -9,6 +9,7 @@ spec:
       namespace: argocd
   hostnames:
     - "localhost"
+    - "10.10.10.11"
   rules:
     - matches:
         - path:
